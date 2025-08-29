@@ -10,3 +10,12 @@ Other:
 	- Hopefully follow PEP 8 & 257 for professionalism
 	- Remote Control Support
 	- Simulation Program
+
+What I aim to do:               How I aim to do it:
+    - Motors                        - In Research
+    - DVL/IMU                       - In Research
+    - AHRS                          - In Research
+    - Scanning Sonar                - In Research
+    - Camera                        - In Research
+    - Vision                        - In Research
+    - FSM, AFSM(?)                  - In Research

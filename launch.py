@@ -1,11 +1,13 @@
-from multiprocessing import Process
-from modules.motors.motorInterface import motorClass
+from multiprocessing                    import Process
+from modules.motors.motor_interface     import MotorInterface
 
 """
 Initiates launch protocol for AUV
 """
 
 if __name__ == '__main__':
-    motors = Process(target=motorClass.motor, args=())
+    motor_interface = MotorInterface()
+
+    motors = Process(target=motor_interface)
     motors.start()
     motors.join()
